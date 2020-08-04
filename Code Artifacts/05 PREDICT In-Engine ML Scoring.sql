@@ -36,6 +36,4 @@ FROM (
 ORDER BY
 	PassengerCount
 
- 
--- SELECT TOP 10
-SELECT TOP 10 * FROM vw_PredictedTripAmount
+
