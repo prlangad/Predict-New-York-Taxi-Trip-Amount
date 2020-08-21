@@ -1,0 +1,8 @@
+azure-storage-blob==12.3.2
+azureml-widgets==1.6.0
+azureml-train-automl-runtime==1.6.0
+onnxruntime==1.0.0
+werkzeug==0.16.1
+nimbusml==1.7.1
+ruamel.yaml==0.16.10
+onnxconverter-common==1.6.0

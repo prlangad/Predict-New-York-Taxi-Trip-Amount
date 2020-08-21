@@ -29,7 +29,10 @@ To work with this sample script, user need Azure Synapse SQL pool.
 5.	Run predict query for inline prediction of TotalAmount with registered model. Attached SQL script is full script from demo. Refer file [05 PREDICT In-Engine ML Scoring.sql](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/05%20PREDICT%20In-Engine%20ML%20Scoring.sql)
 
 **Note**
-To get the hex string of ONNX model, [PowerShell](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/powershelltoconvertonnxtohex.ps1)script is used for conversion.
+In this demo, the model is trained with AutoML. To upload dependent libraries on Spark pool upload the [synapsepredictamllibdependencies.txt](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/synapsepredictamllibdependencies.txt) file on Spark pool.
+To get the hex string of ONNX model, [PowerShell](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/powershelltoconvertonnxtohex.ps1) script is used for conversion.
+
+
 
 
 
