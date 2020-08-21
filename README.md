@@ -5,6 +5,9 @@
 ### Information
 This repository provides the step by step guide to showcase predict feature in Synapse workspace. It contains sample data along with SQL scripts for execution. The files are prefixed with sequence number for ease of use and execution.
 
+### Prerequisite
+To work with this sample script, user need Azure Synapse SQL pool.
+
 ### Artifacts
 1.	[01 Create Trips Table.sql](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/01%20Create%20Trips%20Table.sql)
 2.	[02 Create Models Table.sql](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/02%20Create%20Models%20Table.sql)
@@ -24,6 +27,10 @@ This repository provides the step by step guide to showcase predict feature in S
 4.	Load data into dbo.Trips from attached sample trips.txt file. Save trips.txt file in your storage account and provide the path of file in below COPY INTO statement. Sample Script is attached here for reference. Replace your storage account name, container name and/or folder name to make the location of file valid. Refer file [04 Load Trips table with data.sql](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/04%20Load%20Trips%20table%20with%20data.sql)
 
 5.	Run predict query for inline prediction of TotalAmount with registered model. Attached SQL script is full script from demo. Refer file [05 PREDICT In-Engine ML Scoring.sql](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/05%20PREDICT%20In-Engine%20ML%20Scoring.sql)
+
+**Note**
+To get the hex string of ONNX model, [PowerShell](https://github.com/prlangad/Predict-New-York-Taxi-Trip-Amount/blob/master/Code%20Artifacts/powershelltoconvertonnxtohex.ps1)script is used for conversion.
+
 
 
 
