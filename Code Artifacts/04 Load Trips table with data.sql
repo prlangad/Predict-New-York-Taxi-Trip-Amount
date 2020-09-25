@@ -24,7 +24,7 @@ GO
 --BEGIN
 COPY INTO dbo.Trips
 (vendorID 1, passengerCount 2, tripDistance 3, month_num 4, day_of_month 5, day_of_week 6, day_of_hour 7)
-FROM 'https://<storage_account_name>.dfs.core.windows.net/<container_name>/<folder_name>/trips.txt'
+FROM 'https://<storage_account_name>.dfs.core.windows.net/<container_name>/<folder_name>/Trips.txt'
 WITH
 (
 	FILE_TYPE = 'CSV'
